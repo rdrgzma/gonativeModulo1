@@ -4,13 +4,11 @@ import {View, Text, StyleSheet, Dimensions} from 'react-native';
 
 // import styles from './styles';
 
-
-
 const Post = (props) => (
-    <View style={styles.container}>   
-            <Text style={styles.textTitlePost}>{props.title}</Text>
-            <Text style={styles.textAuthorPost}>{props.author}</Text>
-        <View style={styles.borderStyle} />
+    <View style={styles.container}>
+        <Text style={styles.textTitlePost}>{props.title}</Text>
+        <Text style={styles.textAuthorPost}>{props.author}</Text>
+        <View style={styles.borderStyle}/>
         <Text style={styles.textDescriptionPost}>{props.description}</Text>
     </View>
 );
@@ -28,14 +26,13 @@ const styles = StyleSheet.create({
     },
     textAuthorPost: {
         color: '#999999',
-        marginBottom:10,
-     
+        marginBottom: 10
     },
     textDescriptionPost: {
         color: '#666666',
-        marginTop: 10,
+        marginTop: 10
     },
-    borderStyle:{
+    borderStyle: {
         borderWidth: 1,
         borderColor: '#EEEEEE'
 

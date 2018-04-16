@@ -19,11 +19,11 @@ const styles = StyleSheet.create({
         width: width,
         height: 40,
         justifyContent: 'center',
-        alignItems: 'center', 
+        alignItems: 'center'
     },
-    textTitulo:{
+    textTitulo: {
         color: '#333333',
-        fontWeight: 'bold', 
+        fontWeight: 'bold'
     }
 })
 export default Title;
